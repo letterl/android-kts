@@ -1,6 +1,12 @@
 pluginManagement {
     repositories {
-        gradlePluginPortal()
+        // 本地
+        mavenLocal()
+        // 阿里-gradle-plugin
+        maven {
+            url = uri("https://maven.aliyun.com/repository/gradle-plugin")
+        }
+            gradlePluginPortal()
         google()
         mavenCentral()
     }
