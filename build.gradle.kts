@@ -1,7 +1,7 @@
 buildscript {
     // 多个变量
     rootProject.extra.apply {
-        set("compose_version", "1.1.1")
+        set("compose_version", "1.3.1")
         set("kotlin_version", "1.7.10")
     }
 }
