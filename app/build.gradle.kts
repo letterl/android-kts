@@ -1,6 +1,8 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    //'kotlin-parcelize' plugin
+    id("kotlin-parcelize")
 }
 
 android {
@@ -64,4 +66,8 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4:$compose_version")
     debugImplementation("androidx.compose.ui:ui-tooling:$compose_version")
     debugImplementation("androidx.compose.ui:ui-test-manifest:$compose_version")
+
+
+    // Appyx
+    implementation( "com.bumble.appyx:core:1.0.1")
 }
